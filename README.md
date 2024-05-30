@@ -22,15 +22,20 @@
 
 
 ## Introduction
-<p align="center">
+
+<div align="center">
   <img src="assets/images/project-mofa.png">
-</p>
+</div>
+
 We introduce MOFA-Video, a method designed to adapt motions from different domains to the frozen Video Diffusion Model. By employing <u>sparse-to-dense (S2D) motion generation</u> and <u>flow-based motion adaptation</u>, MOFA-Video can effectively animate a single image using various types of control signals, including trajectories, keypoint sequences, AND their combinations.
+
 <br>
 <br>
+
 <p align="center">
   <img src="assets/images/pipeline.png">
 </p>
+
 During the training stage, we generate sparse control signals through sparse motion sampling and then train different MOFA-Adapters to generate video via pre-trained SVD. During the inference stage, different MOFA-Adapters can be combined to jointly control the frozen SVD.
 
 ---

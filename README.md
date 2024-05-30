@@ -3,9 +3,9 @@
 
 
 <div align="center">
-  <h2>
-    MOFA-Video: Controllable Image Animation via Generative Motion <br> Field Adaptions in Frozen Image-to-Video Diffusion Model
-  </h2>
+  <h1>
+    MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model
+  </h1>
 <a href=''><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; <a href='https://myniuuu.github.io/MOFA_Video'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <div>
     <a href='https://myniuuu.github.io/' target='_blank'>Muyao Niu</a> <sup>1,2</sup> &nbsp;
@@ -28,9 +28,6 @@
 </div>
 
 We introduce MOFA-Video, a method designed to adapt motions from different domains to the frozen Video Diffusion Model. By employing <u>sparse-to-dense (S2D) motion generation</u> and <u>flow-based motion adaptation</u>, MOFA-Video can effectively animate a single image using various types of control signals, including trajectories, keypoint sequences, AND their combinations.
-
-<br>
-<br>
 
 <p align="center">
   <img src="assets/images/pipeline.png">

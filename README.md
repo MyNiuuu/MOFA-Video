@@ -3,9 +3,9 @@
 
 
 <div align="center">
-  <h2>
+  <h1>
     MOFA-Video: Controllable Image Animation via Generative Motion <br> Field Adaptions in Frozen Image-to-Video Diffusion Model
-  </h2>
+  </h1>
 <a href=''><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; <a href='https://myniuuu.github.io/MOFA_Video'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <div>
     <a href='https://myniuuu.github.io/' target='_blank'>Muyao Niu</a> <sup>1,2</sup> &nbsp;
@@ -44,5 +44,5 @@ please check the gallery of our [project page](https://myniuuu.github.io/MOFA_Vi
 - [ ] Training codes 
 
 
-# Acknowledgements
+## Acknowledgements
 We appreciate the Gradio code of [DragNUWA](https://arxiv.org/abs/2308.08089).

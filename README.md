@@ -1,14 +1,24 @@
-# MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model.
 
-[Muyao Niu](https://myniuuu.github.io/), 
-[Xiaodong Cun](https://vinthony.github.io/academic/), 
-[Xintao Wang](https://xinntao.github.io/), 
-[Yong Zhang](https://yzhang2016.github.io/), 
-[Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en), 
-[Yinqiang Zheng](https://scholar.google.com/citations?user=JD-5DKcAAAAJ&hl=en)
 
-[![Project page](https://img.shields.io/badge/Project-Page-brightgreen)](https://myniuuu.github.io/MOFA_Video)
 
+
+<div align="center">
+  <h2>
+    MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions <br> in Frozen Image-to-Video Diffusion Model
+  </h2>
+<a href=''><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; <a href='https://myniuuu.github.io/MOFA_Video'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<div>
+    <a href='https://myniuuu.github.io/' target='_blank'>Muyao Niu</a> <sup>1,2</sup> &nbsp;
+    <a href='https://vinthony.github.io/academic/' target='_blank'>Xiaodong Cun</a><sup>2,*</sup> &nbsp;
+    <a href='https://xinntao.github.io/' target='_blank'>Xintao Wang</a><sup>2</sup> &nbsp;
+    <a href='https://yzhang2016.github.io/' target='_blank'>Yong Zhang</a><sup>2</sup> &nbsp; <br>
+    <a href='https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en' target='_blank'>Ying Shan</a><sup>2</sup> &nbsp;
+    <a href='https://scholar.google.com/citations?user=JD-5DKcAAAAJ&hl=en' target='_blank'>Yinqiang Zheng</a><sup>1</sup> &nbsp;
+</div>
+<div>
+    <sup>1</sup> The University of Tokyo &nbsp; <sup>2</sup> Tencent AI Lab &nbsp; <sup>*</sup> Corresponding Author &nbsp; 
+</div>
+</div>
 
 
 ## Introduction

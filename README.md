@@ -10,11 +10,14 @@
 [![Project page](https://img.shields.io/badge/Project-Page-brightgreen)](https://myniuuu.github.io/MOFA_Video)
 
 
+
 ## Introduction
 <p align="center">
   <img src="assets/images/project-mofa.png">
 </p>
 We introduce MOFA-Video, a method designed to adapt motions from different domains to the frozen Video Diffusion Model. By employing <u>sparse-to-dense (S2D) motion generation</u> and <u>flow-based motion adaptation</u>, MOFA-Video can effectively animate a single image using various types of control signals, including trajectories, keypoint sequences, AND their combinations.
+<br>
+<br>
 <p align="center">
   <img src="assets/images/pipeline.png">
 </p>

@@ -6,7 +6,7 @@
   <h1>
     MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model
   </h1>
-<a href=''><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; <a href='https://myniuuu.github.io/MOFA_Video'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<a href=''><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; <a href='https://myniuuu.github.io/MOFA_Video'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp; <a href='https://myniuuu.github.io/MOFA_Video'><img src='https://img.shields.io/badge/🤗 hugging_face-comming_soom-blue'></a>
 <div>
     <a href='https://myniuuu.github.io/' target='_blank'>Muyao Niu</a> <sup>1,2</sup> &nbsp;
     <a href='https://vinthony.github.io/academic/' target='_blank'>Xiaodong Cun</a><sup>2,*</sup> &nbsp;
@@ -18,6 +18,12 @@
 <div>
     <sup>1</sup> The University of Tokyo &nbsp; <sup>2</sup> Tencent AI Lab &nbsp; <sup>*</sup> Corresponding Author &nbsp; 
 </div>
+</div>
+
+---
+
+<div align="center">
+Check the gallery of our <a href='https://myniuuu.github.io/MOFA_Video' target='_blank'>project page</a> for many visual results!
 </div>
 
 
@@ -35,9 +41,8 @@ We introduce MOFA-Video, a method designed to adapt motions from different domai
 
 During the training stage, we generate sparse control signals through sparse motion sampling and then train different MOFA-Adapters to generate video via pre-trained SVD. During the inference stage, different MOFA-Adapters can be combined to jointly control the frozen SVD.
 
----
 
-please check the gallery of our [project page](https://myniuuu.github.io/MOFA_Video) for many visual results!
+
 
 ## 📰 **TODO**
 - [ ] Gradio demo and checkpoints for trajectory-based image animation (By this weekend)
@@ -47,4 +52,4 @@ please check the gallery of our [project page](https://myniuuu.github.io/MOFA_Vi
 
 
 ## Acknowledgements
-We appreciate the Gradio code of [DragNUWA](https://arxiv.org/abs/2308.08089).
+Our Gradio codes are based on the early release of [DragNUWA](https://arxiv.org/abs/2308.08089). Our training codes are based on [Diffusers](https://github.com/huggingface/diffusers) and [SVD_Xtend](https://github.com/pixeli99/SVD_Xtend). We appreciate the code release of these projects.

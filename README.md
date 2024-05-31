@@ -27,6 +27,13 @@ Check the gallery of our <a href='https://myniuuu.github.io/MOFA_Video' target='
 </div>
 
 
+## 📰 CODE RELEASE
+- [ ] Gradio demo and checkpoints for trajectory-based image animation (By this weekend)
+- [ ] Inference scripts and checkpoints for keypoint-based facial image animation
+- [ ] inference Gradio demo for hybrid image animation
+- [ ] Training codes
+
+
 ## Introduction
 
 <div align="center">
@@ -44,11 +51,7 @@ During the training stage, we generate sparse control signals through sparse mot
 
 
 
-## 📰 **TODO**
-- [ ] Gradio demo and checkpoints for trajectory-based image animation (By this weekend)
-- [ ] Inference scripts and checkpoints for keypoint-based facial image animation
-- [ ] inference Gradio demo for hybrid image animation
-- [ ] Training codes 
+
 
 
 ## Acknowledgements

@@ -44,6 +44,12 @@ We have released the Gradio inference code and the checkpoints for trajectory-ba
 ## Introduction
 
 <div align="center">
+  <h3>
+    TL;DR: Image 🏞️ + Hybrid Controls 🕹️ = Videos 🎬🍿
+  </h3>
+</div>
+
+<div align="center">
   <img src="assets/images/project-mofa.png">
 </div>
 

@@ -37,7 +37,7 @@ We have released the Gradio inference code and the checkpoints for trajectory-ba
 ## 📰 CODE RELEASE
 - [x] (2024.05.31) Gradio demo and checkpoints for trajectory-based image animation
 - [ ] Inference scripts and checkpoints for keypoint-based facial image animation
-- [ ] inference Gradio demo for hybrid image animation
+- [ ] Inference Gradio demo for hybrid image animation
 - [ ] Training codes
 
 

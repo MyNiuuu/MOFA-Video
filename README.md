@@ -72,4 +72,8 @@ Our inference demo is based on Gradio. Please refer to `./MOFA-Video-Traj/README
 
 
 ## Acknowledgements
-Our Gradio codes are based on the early release of [DragNUWA](https://arxiv.org/abs/2308.08089). Our training codes are based on [Diffusers](https://github.com/huggingface/diffusers) and [SVD_Xtend](https://github.com/pixeli99/SVD_Xtend). We appreciate the code release of these projects.
+Our Gradio codes are based on the early release of [DragNUWA](https://arxiv.org/abs/2308.08089). 
+The landmark generation code used in our repository is based on [SadTalker](https://github.com/OpenTalker/SadTalker) and [AniPortrait](https://github.com/Zejun-Yang/AniPortrait).
+Our training codes are based on [Diffusers](https://github.com/huggingface/diffusers) and [SVD_Xtend](https://github.com/pixeli99/SVD_Xtend). 
+We sincerely appreciate the code release of these projects.
+

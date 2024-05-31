@@ -27,8 +27,15 @@ Check the gallery of our <a href='https://myniuuu.github.io/MOFA_Video' target='
 </div>
 
 
+
+
+## New Features/Updates 🔥🔥🔥
+
+We have released the Gradio inference code and the checkpoints for trajectory-based image animation! Please refer to `./MOFA-Video-Traj/README.md` for instructions.
+
+
 ## 📰 CODE RELEASE
-- [ ] Gradio demo and checkpoints for trajectory-based image animation (By this weekend)
+- [x] (2024.05.31) Gradio demo and checkpoints for trajectory-based image animation
 - [ ] Inference scripts and checkpoints for keypoint-based facial image animation
 - [ ] inference Gradio demo for hybrid image animation
 - [ ] Training codes
@@ -49,7 +56,11 @@ We introduce MOFA-Video, a method designed to adapt motions from different domai
 During the training stage, we generate sparse control signals through sparse motion sampling and then train different MOFA-Adapters to generate video via pre-trained SVD. During the inference stage, different MOFA-Adapters can be combined to jointly control the frozen SVD.
 
 
+## 💫 Trajectory-based Image Animation 
 
+### Inference
+
+Our inference demo is based on Gradio. Please refer to `./MOFA-Video-Traj/README.md` for instructions.
 
 
 

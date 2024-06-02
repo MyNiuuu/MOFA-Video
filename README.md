@@ -36,9 +36,10 @@ We have released the Gradio inference code and the checkpoints for trajectory-ba
 
 ## 📰 CODE RELEASE
 - [x] (2024.05.31) Gradio demo and checkpoints for trajectory-based image animation
+- [ ] Training scripts for trajectory-based image animation
 - [ ] Inference scripts and checkpoints for keypoint-based facial image animation
+- [ ] Training scripts for keypoint-based facial image animation
 - [ ] Inference Gradio demo for hybrid image animation
-- [ ] Training codes
 
 
 ## Introduction
@@ -69,11 +70,16 @@ During the training stage, we generate sparse control signals through sparse mot
 Our inference demo is based on Gradio. Please refer to `./MOFA-Video-Traj/README.md` for instructions.
 
 
-
+## Citation
+```
+@article{niu2024mofa,
+  title={MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model},
+  author={Niu, Muyao and Cun, Xiaodong and Wang, Xintao and Zhang, Yong and Shan, Ying and Zheng, Yinqiang},
+  journal={arXiv preprint arXiv:2405.20222},
+  year={2024}
+}
+```
 
 ## Acknowledgements
-Our Gradio codes are based on the early release of [DragNUWA](https://arxiv.org/abs/2308.08089). 
-The landmark generation code used in our repository is based on [SadTalker](https://github.com/OpenTalker/SadTalker) and [AniPortrait](https://github.com/Zejun-Yang/AniPortrait).
-Our training codes are based on [Diffusers](https://github.com/huggingface/diffusers) and [SVD_Xtend](https://github.com/pixeli99/SVD_Xtend). 
-We sincerely appreciate the code release of these projects.
+We sincerely appreciate the code release of the following projects: [DragNUWA](https://arxiv.org/abs/2308.08089), [SadTalker](https://github.com/OpenTalker/SadTalker), [AniPortrait](https://github.com/Zejun-Yang/AniPortrait), [Diffusers](https://github.com/huggingface/diffusers), [SVD_Xtend](https://github.com/pixeli99/SVD_Xtend), [Conditional-Motion-Propagation](https://github.com/XiaohangZhan/conditional-motion-propagation), and [Unimatch](https://github.com/autonomousvision/unimatch).
 

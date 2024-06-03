@@ -2,30 +2,28 @@
 
 
 
-<div align="center">
-  <h1>
-    🦄️ MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model
-  </h1>
-<a href='https://arxiv.org/abs/2405.20222'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; <a href='https://myniuuu.github.io/MOFA_Video'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp; <a href='https://huggingface.co/MyNiuuu/MOFA-Video-Traj'><img src='https://img.shields.io/badge/🤗 huggingface-MOFA_Traj-blue'></a>
+  <h2>🦄️ MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model </h2>
 <div>
     <a href='https://myniuuu.github.io/' target='_blank'>Muyao Niu</a> <sup>1,2</sup> &nbsp;
     <a href='https://vinthony.github.io/academic/' target='_blank'>Xiaodong Cun</a><sup>2,*</sup> &nbsp;
     <a href='https://xinntao.github.io/' target='_blank'>Xintao Wang</a><sup>2</sup> &nbsp;
-    <a href='https://yzhang2016.github.io/' target='_blank'>Yong Zhang</a><sup>2</sup> &nbsp; <br>
+    <a href='https://yzhang2016.github.io/' target='_blank'>Yong Zhang</a><sup>2</sup> &nbsp; 
     <a href='https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en' target='_blank'>Ying Shan</a><sup>2</sup> &nbsp;
     <a href='https://scholar.google.com/citations?user=JD-5DKcAAAAJ&hl=en' target='_blank'>Yinqiang Zheng</a><sup>1,*</sup> &nbsp;
 </div>
 <div>
     <sup>1</sup> The University of Tokyo &nbsp; <sup>2</sup> Tencent AI Lab &nbsp; <sup>*</sup> Corresponding Author &nbsp; 
 </div>
-</div>
 
+
+<br>
+<a href='https://arxiv.org/abs/2405.20222'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; <a href='https://myniuuu.github.io/MOFA_Video'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp; <a href='https://huggingface.co/MyNiuuu/MOFA-Video-Traj'><img src='https://img.shields.io/badge/🤗 huggingface-MOFA_Traj-blue'></a>
 
 
 
 ## 🔥🔥🔥 New Features/Updates 
 
-We have released the Gradio inference code and the checkpoints for trajectory-based image animation! Please refer to `./MOFA-Video-Traj/README.md` for instructions.
+We have released the Gradio inference code and the checkpoints for trajectory-based image animation! Please refer to [Here](./MOFA-Video-Traj/README.md) for more instructions.
 
 
 ## 📰 CODE RELEASE
@@ -147,7 +145,7 @@ During the training stage, we generate sparse control signals through sparse mot
 
 ### Inference
 
-Our inference demo is based on Gradio. Please refer to `./MOFA-Video-Traj/README.md` for instructions.
+Our inference demo is based on Gradio. Please refer to [Here](./MOFA-Video-Traj/README.md) for more instructions.
 
 
 ## Citation

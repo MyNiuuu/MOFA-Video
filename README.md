@@ -1,6 +1,7 @@
 
 
 
+
 <div align="center">
   <h1>
     🦄️ MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model
@@ -19,11 +20,7 @@
 </div>
 </div>
 
----
 
-<div align="center">
-Check the gallery of our <a href='https://myniuuu.github.io/MOFA_Video' target='_blank'>project page</a> for more visual results!
-</div>
 
 
 ## 🔥🔥🔥 New Features/Updates 
@@ -40,15 +37,102 @@ We have released the Gradio inference code and the checkpoints for trajectory-ba
 
 
 
+## TL;DR
 
-
-## Introduction
 
 <div align="center">
   <h3>
     Image 🏞️ + Hybrid Controls 🕹️ = Videos 🎬🍿
   </h3>
 </div>
+
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/gifs/hybrid/input.gif"/>
+      <br />
+    </td>
+    <td align="center">
+      <img src="assets/gifs/hybrid/landmark.gif"/>
+      <br />
+    </td>
+    <td align="center">
+      <img src="assets/gifs/hybrid/output.gif"/>
+      <br />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center" style="border: none;">
+      Trajectory + Landmark Control
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/gifs/traj/input.gif"/>
+      <br />
+    </td>
+    <td align="center">
+      <img src="assets/gifs/traj/hint.gif"/>
+      <br />
+    </td>
+    <td align="center">
+      <img src="assets/gifs/traj/flow.gif"/>
+      <br />
+    </td>
+    <td align="center">
+      <img src="assets/gifs/traj/output.gif"/>
+      <br />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center" style="border: none;">
+      Trajectory Control
+    </td>
+  </tr>
+</table>
+
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/gifs/ldmk/input.gif" />
+      <br />
+    </td>
+    <td align="center">
+      <img src="assets/gifs/ldmk/flow.gif" />
+      <br />
+    </td>
+    <td align="center">
+      <img src="assets/gifs/ldmk/landmark.gif" />
+      <br />
+    </td>
+    <td align="center">
+      <img src="assets/gifs/ldmk/output_ldmk.gif" />
+      <br />
+    </td>
+    <td align="center">
+      <img src="assets/gifs/ldmk/output.gif" />
+      <br />
+    </td>
+    <tr>
+    <td colspan="5" align="center" style="border: none;">
+      Landmark Control
+    </td>
+  </tr>
+  </tr>
+</table>
+
+
+<div align="center">
+Check the gallery of our <a href='https://myniuuu.github.io/MOFA_Video' target='_blank'>project page</a> for more visual results!
+</div>
+
+
+## Introduction
 
 We introduce MOFA-Video, a method designed to adapt motions from different domains to the frozen Video Diffusion Model. By employing <u>sparse-to-dense (S2D) motion generation</u> and <u>flow-based motion adaptation</u>, MOFA-Video can effectively animate a single image using various types of control signals, including trajectories, keypoint sequences, AND their combinations.
 

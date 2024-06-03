@@ -19,6 +19,11 @@
 </div>
 </div>
 
+---
+
+<div align="center">
+Check the gallery of our <a href='https://myniuuu.github.io/MOFA_Video' target='_blank'>project page</a> for more visual results!
+</div>
 
 
 ## 🔥🔥🔥 New Features/Updates 
@@ -34,89 +39,16 @@ We have released the Gradio inference code and the checkpoints for trajectory-ba
 - [ ] Inference Gradio demo for hybrid image animation
 
 
-## TL;DR
+
+
+
+## Introduction
 
 <div align="center">
   <h3>
     Image 🏞️ + Hybrid Controls 🕹️ = Videos 🎬🍿
   </h3>
 </div>
-
-
-<link href="static/css/my_style.css" rel="stylesheet" type="text/css">
-
-<div class="video_row">
-    <div class="video_container">
-      <img src="assets/gifs/hybrid/input.gif">
-    </div>
-    <div class="video_container">
-      <img src="assets/gifs/hybrid/landmark.gif">
-    </div>
-    <div class="video_container">
-      <img src="assets/gifs/hybrid/output.gif">
-    </div>
-</div>
-
-<link href="static/css/my_style.css" rel="stylesheet" type="text/css">
-
-<div class="span_captions">
-    <p class="caption" style="margin-top: -5px; margin-bottom: 5px;">Hybrid Control</p>
-</div>
-
-<div class="video_row">
-    <div class="video_container">
-      <img src="assets/gifs/traj/input.gif">
-    </div>
-    <div class="video_container">
-      <img src="assets/gifs/traj/hint.gif">
-    </div>
-    <div class="video_container">
-      <img src="assets/gifs/traj/flow.gif">
-    </div>
-    <div class="video_container">
-      <img src="assets/gifs/traj/output.gif">
-    </div>
-</div>
-
-<link href="static/css/my_style.css" rel="stylesheet" type="text/css">
-
-<div class="span_captions">
-    <p class="caption" style="margin-top: -5px; margin-bottom: 5px;">Trajectory Control</p>
-</div>
-
-<div class="video_row">
-    <div class="video_container">
-      <img src="assets/gifs/ldmk/input.gif">
-    </div>
-    <div class="video_container">
-      <img src="assets/gifs/ldmk/flow.gif">
-    </div>
-    <div class="video_container">
-      <img src="assets/gifs/ldmk/landmark.gif">
-    </div>
-    <div class="video_container">
-      <img src="assets/gifs/ldmk/output_ldmk.gif">
-    </div>
-    <div class="video_container">
-      <img src="assets/gifs/ldmk/output.gif">
-    </div>
-</div>
-
-<link href="static/css/my_style.css" rel="stylesheet" type="text/css">
-
-<div class="span_captions">
-    <p class="caption" style="margin-top: -5px; margin-bottom: 5px;">Landmarks Control</p>
-</div>
-
-
-<div style="height: 10px;"></div>
-
-<div align="center">
-Check the gallery of our <a href='https://myniuuu.github.io/MOFA_Video' target='_blank'>project page</a> for more visual results!
-</div>
-
-
-## Introduction
 
 We introduce MOFA-Video, a method designed to adapt motions from different domains to the frozen Video Diffusion Model. By employing <u>sparse-to-dense (S2D) motion generation</u> and <u>flow-based motion adaptation</u>, MOFA-Video can effectively animate a single image using various types of control signals, including trajectories, keypoint sequences, AND their combinations.
 

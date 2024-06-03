@@ -48,15 +48,15 @@ We have released the Gradio inference code and the checkpoints for trajectory-ba
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/gifs/hybrid/input.gif"/>
+      <img src="assets/teasers/hybrid/input.gif"/>
       <br />
     </td>
     <td align="center">
-      <img src="assets/gifs/hybrid/landmark.gif"/>
+      <img src="assets/teasers/hybrid/landmark.gif"/>
       <br />
     </td>
     <td align="center">
-      <img src="assets/gifs/hybrid/output.gif"/>
+      <img src="assets/teasers/hybrid/output.gif"/>
       <br />
     </td>
   </tr>
@@ -70,19 +70,19 @@ We have released the Gradio inference code and the checkpoints for trajectory-ba
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/gifs/traj/input.gif"/>
+      <img src="assets/teasers/traj/input.gif"/>
       <br />
     </td>
     <td align="center">
-      <img src="assets/gifs/traj/hint.gif"/>
+      <img src="assets/teasers/traj/hint.gif"/>
       <br />
     </td>
     <td align="center">
-      <img src="assets/gifs/traj/flow.gif"/>
+      <img src="assets/teasers/traj/flow.gif"/>
       <br />
     </td>
     <td align="center">
-      <img src="assets/gifs/traj/output.gif"/>
+      <img src="assets/teasers/traj/output.gif"/>
       <br />
     </td>
   </tr>
@@ -97,23 +97,23 @@ We have released the Gradio inference code and the checkpoints for trajectory-ba
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/gifs/ldmk/input.gif" />
+      <img src="assets/teasers/ldmk/input.gif" />
       <br />
     </td>
     <td align="center">
-      <img src="assets/gifs/ldmk/flow.gif" />
+      <img src="assets/teasers/ldmk/flow.gif" />
       <br />
     </td>
     <td align="center">
-      <img src="assets/gifs/ldmk/landmark.gif" />
+      <img src="assets/teasers/ldmk/landmark.gif" />
       <br />
     </td>
     <td align="center">
-      <img src="assets/gifs/ldmk/output_ldmk.gif" />
+      <img src="assets/teasers/ldmk/output_ldmk.gif" />
       <br />
     </td>
     <td align="center">
-      <img src="assets/gifs/ldmk/output.gif" />
+      <img src="assets/teasers/ldmk/output.gif" />
       <br />
     </td>
     <tr>

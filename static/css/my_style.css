@@ -1,0 +1,32 @@
+.video_row {
+  width: 90%; 
+  margin: auto; 
+  display: block; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video_container {
+  flex: 1;
+  text-align: center;
+  border: none;
+  height: auto;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
+.span_captions {
+  width: 90%; 
+  margin: auto; 
+  display: block; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.caption {
+  flex: 1;
+  text-align: center;
+  font-size: 12px; 
+}

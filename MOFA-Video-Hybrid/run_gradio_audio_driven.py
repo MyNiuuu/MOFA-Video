@@ -332,7 +332,7 @@ class Drag:
     def __init__(self, device, height, width, model_length):
         self.device = device
 
-        pretrained_model_name_or_path = "/apdcephfs/share_1290939/vg_zoo/huggingface/stable-video-diffusion-img2vid-xt-1-1"
+        pretrained_model_name_or_path = "stabilityai/stable-video-diffusion-img2vid-xt-1-1"
 
         self.device = 'cuda'
         self.weight_dtype = torch.float16

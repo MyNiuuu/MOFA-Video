@@ -23,15 +23,15 @@
 
 ## 🔥🔥🔥 New Features/Updates 
 
-We have released the Gradio inference code and the checkpoints for trajectory-based image animation! Please refer to [Here](./MOFA-Video-Traj/README.md) for more instructions.
+The Gradio inference demo and the checkpoints for **Hybrid** Control will be released by this weekend.
 
 
 ## 📰 CODE RELEASE
 - [x] (2024.05.31) Gradio demo and checkpoints for trajectory-based image animation
-- [ ] Training scripts for trajectory-based image animation
+- [ ] Gradio demo and checkpoints for hybrid image animation
 - [ ] Inference scripts and checkpoints for keypoint-based facial image animation
+- [ ] Training scripts for trajectory-based image animation
 - [ ] Training scripts for keypoint-based facial image animation
-- [ ] Inference Gradio demo for hybrid image animation
 
 
 

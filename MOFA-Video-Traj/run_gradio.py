@@ -689,6 +689,8 @@ with gr.Blocks() as demo:
         return first_frame_path, first_frame_path, first_frame_path, gr.State([]), gr.State([]), np.zeros((crop_h, crop_w)), np.zeros((crop_h, crop_w, 4))
 
     def add_drag(tracking_points):
+        if len(tracking_points.constructor_args['value']) != 0 and tracking_points.constructor_args['value'][-1] == []:
+            return tracking_points
         tracking_points.constructor_args['value'].append([])
         return tracking_points
 

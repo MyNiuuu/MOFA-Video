@@ -17,20 +17,20 @@
 
 
 <br>
-<a href='https://arxiv.org/abs/2405.20222'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; <a href='https://myniuuu.github.io/MOFA_Video'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp; <a href='https://huggingface.co/MyNiuuu/MOFA-Video-Traj'><img src='https://img.shields.io/badge/🤗 huggingface-MOFA_Traj-blue'></a>
+<a href='https://arxiv.org/abs/2405.20222'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; <a href='https://myniuuu.github.io/MOFA_Video'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp; <a href='https://huggingface.co/MyNiuuu/MOFA-Video-Traj'><img src='https://img.shields.io/badge/🤗 huggingface-MOFA_Traj-blue'></a> &nbsp; <a href='https://huggingface.co/MyNiuuu/MOFA-Video-Hybrid'><img src='https://img.shields.io/badge/🤗 huggingface-MOFA_Hybrid-yellow'></a>
 
 
 
 ## 🔥🔥🔥 New Features/Updates 
 
-The Gradio inference demo and the checkpoints for **Hybrid** Control will be released by this weekend (2024.06.22).
+We have released the Gradio inference code and the checkpoints for **Hybrid** Controls! Please refer to [Here](./MOFA-Video-Hybrid/README.md) for more instructions. 
 
-We have released the Gradio inference code and the checkpoints for trajectory-based image animation! Please refer to [Here](./MOFA-Video-Traj/README.md) for more instructions.
+Stay tuned. Feel free to raise issues for bug reports or any questions!
 
 
 ## 📰 CODE RELEASE
 - [x] (2024.05.31) Gradio demo and checkpoints for trajectory-based image animation
-- [ ] Gradio demo and checkpoints for hybrid image animation
+- [x] (2024.06.22) Gradio demo and checkpoints for image animation with hybrid control
 - [ ] Inference scripts and checkpoints for keypoint-based facial image animation
 - [ ] Training scripts for trajectory-based image animation
 - [ ] Training scripts for keypoint-based facial image animation
@@ -143,11 +143,20 @@ We introduce MOFA-Video, a method designed to adapt motions from different domai
 During the training stage, we generate sparse control signals through sparse motion sampling and then train different MOFA-Adapters to generate video via pre-trained SVD. During the inference stage, different MOFA-Adapters can be combined to jointly control the frozen SVD.
 
 
+
+## 🕹️ Image Animation with Hybrid Controls
+
+### Inference
+
+Our inference demo is based on Gradio. Please refer to [Here](./MOFA-Video-Hybrid/README.md) for more instructions.
+
+
 ## 💫 Trajectory-based Image Animation 
 
 ### Inference
 
 Our inference demo is based on Gradio. Please refer to [Here](./MOFA-Video-Traj/README.md) for more instructions.
+
 
 
 ## Citation

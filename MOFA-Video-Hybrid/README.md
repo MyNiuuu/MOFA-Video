@@ -34,3 +34,8 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git"
 `python run_gradio_audio_driven.py`
 
 **IMPORTANT:** ⚠️⚠️⚠️ Please refer to the instructions on the gradio interface during the inference process!
+
+
+## Acknowledgements
+We use [SadTalker](https://github.com/OpenTalker/SadTalker) and [AniPortrait](https://github.com/Zejun-Yang/AniPortrait) to generate the landmarks in this demo. We sincerely appreciate their code and checkpoint release.
+

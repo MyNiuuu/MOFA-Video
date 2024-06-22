@@ -697,7 +697,8 @@ with gr.Blocks() as demo:
         return motion_brush_points
     
     def delete_last_drag(tracking_points, first_frame_path, motion_brush_mask):
-        tracking_points.constructor_args['value'].pop()
+        if len(tracking_points.constructor_args['value']) > 0:
+            tracking_points.constructor_args['value'].pop()
         transparent_background = Image.open(first_frame_path).convert('RGBA')
         w, h = transparent_background.size
         transparent_layer = np.zeros((h, w, 4))
@@ -746,6 +747,10 @@ with gr.Blocks() as demo:
     def add_tracking_points(tracking_points, first_frame_path, motion_brush_mask, evt: gr.SelectData):
 
         print(f"You selected {evt.value} at {evt.index} from {evt.target}")
+        
+        if len(tracking_points.constructor_args['value']) == 0:
+            tracking_points.constructor_args['value'].append([])
+            
         tracking_points.constructor_args['value'][-1].append(evt.index)
 
         # print(tracking_points.constructor_args['value'])
@@ -828,4 +833,4 @@ with gr.Blocks() as demo:
 
     run_button.click(DragNUWA_net.run, [first_frame_path, tracking_points, inference_batch_size, motion_brush_mask, motion_brush_viz, ctrl_scale], [hint_image, output_video, output_flow, output_video_mp4, output_flow_mp4])
 
-    demo.launch(server_name="0.0.0.0", debug=True, server_port=80)
+    demo.launch(server_name="127.0.0.1", debug=True, server_port=9080)

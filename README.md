@@ -23,7 +23,9 @@
 
 ## 🔥🔥🔥 New Features/Updates 
 
-The Gradio inference demo and the checkpoints for **Hybrid** Control will be released by this weekend.
+The Gradio inference demo and the checkpoints for **Hybrid** Control will be released by this weekend (2024.06.22).
+
+We have released the Gradio inference code and the checkpoints for trajectory-based image animation! Please refer to [Here](./MOFA-Video-Traj/README.md) for more instructions.
 
 
 ## 📰 CODE RELEASE

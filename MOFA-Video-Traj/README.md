@@ -1,3 +1,7 @@
+## Updates 🔥🔥🔥
+
+We have released the Gradio demo for **Hybrid (Trajectory + Landmark)** Controls [HERE](https://github.com/MyNiuuu/MOFA-Video/tree/main/MOFA-Video-Hybrid)!
+
 ## Environment Setup
 
 `pip install -r requirements.txt`

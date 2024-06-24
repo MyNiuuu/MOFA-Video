@@ -31,7 +31,7 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git"
 
 ### Using refernce video to animate the facial part
 
-`python run_gradio_audio_driven.py`
+`python run_gradio_video_driven.py`
 
 **IMPORTANT:** ⚠️⚠️⚠️ Please refer to the instructions on the gradio interface during the inference process!
 

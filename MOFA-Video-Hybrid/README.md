@@ -18,6 +18,7 @@ cd ./MOFA-Video
 The demo has been tested on CUDA version of 11.7.
 
 ```
+cd ./MOFA-Video-Hybrid
 conda create -n mofa python==3.10
 conda activate mofa
 pip install -r requirements.txt

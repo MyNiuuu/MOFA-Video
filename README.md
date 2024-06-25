@@ -27,6 +27,8 @@ We have released the Gradio inference code and the checkpoints for **Hybrid** Co
 
 Stay tuned. Feel free to raise issues for bug reports or any questions!
 
+*Free online demo via HuggingFace Spaces will be coming soon!*
+
 
 ## 📰 CODE RELEASE
 - [x] (2024.05.31) Gradio demo and checkpoints for trajectory-based image animation

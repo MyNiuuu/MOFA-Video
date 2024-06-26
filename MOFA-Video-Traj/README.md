@@ -41,4 +41,8 @@ The final structure of checkpoints should be:
 
 `python run_gradio.py`
 
-Please refer to the instructions on the gradio interface during the inference process.
+🪄🪄🪄 The Gradio Interface is displayed as below. Please refer to the instructions on the gradio interface during the inference process!
+
+<td align="center">
+  <img src="../assets/images/traj.png"/>
+</td>

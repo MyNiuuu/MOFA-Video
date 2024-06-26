@@ -53,15 +53,24 @@ cd ./MOFA-Video-Hybrid
 python run_gradio_audio_driven.py
 ```
 
-#### Using refernce video to animate the facial part
+🪄🪄🪄 The Gradio Interface is displayed as below. Please refer to the instructions on the gradio interface during the inference process!
+
+<td align="center">
+  <img src="../assets/images/hybrid_audio.png"/>
+</td>
+
+#### Using reference video to animate the facial part
 
 ```
 cd ./MOFA-Video-Hybrid
 python run_gradio_video_driven.py
 ```
 
-**IMPORTANT:** ⚠️⚠️⚠️ Please refer to the instructions on the gradio interface during the inference process!
+🪄🪄🪄 The Gradio Interface is displayed as below. Please refer to the instructions on the gradio interface during the inference process!
 
+<td align="center">
+  <img src="../assets/images/hybrid_video.png"/>
+</td>
 
 ## Acknowledgements
 We use [SadTalker](https://github.com/OpenTalker/SadTalker) and [AniPortrait](https://github.com/Zejun-Yang/AniPortrait) to generate the landmarks in this demo. We sincerely appreciate their code and checkpoint release.

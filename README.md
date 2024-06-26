@@ -195,6 +195,12 @@ cd ./MOFA-Video-Hybrid
 python run_gradio_audio_driven.py
 ```
 
+🪄🪄🪄 The Gradio Interface is displayed as below. Please refer to the instructions on the gradio interface during the inference process!
+
+<td align="center">
+  <img src="assets/images/hybrid_audio.png"/>
+</td>
+
 **Using refernce video to animate the facial part**
 
 ```
@@ -202,13 +208,16 @@ cd ./MOFA-Video-Hybrid
 python run_gradio_video_driven.py
 ```
 
-**IMPORTANT:** ⚠️⚠️⚠️ Please refer to the instructions on the gradio interface during the inference process!
+🪄🪄🪄 The Gradio Interface is displayed as below. Please refer to the instructions on the gradio interface during the inference process!
+
+<td align="center">
+  <img src="assets/images/hybrid_video.png"/>
+</td>
 
 
 ## 💫 Trajectory-based Image Animation 
 
 Please refer to [Here](./MOFA-Video-Traj/README.md) for instructions.
-
 
 ## Citation
 ```

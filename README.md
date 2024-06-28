@@ -29,6 +29,7 @@ Stay tuned. Feel free to raise issues for bug reports or any questions!
 
 *Free online demo via HuggingFace Spaces will be coming soon!*
 
+If you find this work interesting, please do not hesitate to give a ⭐!
 
 ## 📰 CODE RELEASE
 - [x] (2024.05.31) Gradio demo and checkpoints for trajectory-based image animation

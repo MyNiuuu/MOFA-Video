@@ -202,7 +202,7 @@ python run_gradio_audio_driven.py
   <img src="assets/images/hybrid_audio.png"/>
 </td>
 
-**Using refernce video to animate the facial part**
+**Using reference video to animate the facial part**
 
 ```
 cd ./MOFA-Video-Hybrid

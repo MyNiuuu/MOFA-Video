@@ -2,7 +2,7 @@
 
 
 
-  <h2>🦄️ MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model </h2>
+  <h2>🦄️ MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model (ECCV 2024) </h2>
 <div>
     <a href='https://myniuuu.github.io/' target='_blank'>Muyao Niu</a> <sup>1,2</sup> &nbsp;
     <a href='https://vinthony.github.io/academic/' target='_blank'>Xiaodong Cun</a><sup>2,*</sup> &nbsp;
@@ -25,13 +25,10 @@ In *European Conference on Computer Vision (ECCV) 2024*
 
 ## 🔥🔥🔥 New Features/Updates
 
-MOFA-Video will be appeared in *ECCV 2024!* 🇮🇹🇮🇹🇮🇹
-
-We have released the Gradio inference code and the checkpoints for **Hybrid** Controls! Please refer to [Here](./MOFA-Video-Hybrid/README.md) for more instructions. 
-
-*Free online demo via HuggingFace Spaces will be coming soon!*
-
-If you find this work interesting, please do not hesitate to give a ⭐!
+- MOFA-Video will be appeared in *ECCV 2024!* 🇮🇹🇮🇹🇮🇹
+- We have released the Gradio inference code and the checkpoints for **Hybrid** Controls! Please refer to [Here](./MOFA-Video-Hybrid/README.md) for more instructions. 
+- *Free online demo via HuggingFace Spaces will be coming soon!*
+- If you find this work interesting, please do not hesitate to give a ⭐!
 
 ## 📰 CODE RELEASE
 - [x] (2024.05.31) Gradio demo and checkpoints for trajectory-based image animation

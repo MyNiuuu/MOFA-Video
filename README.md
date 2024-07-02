@@ -16,16 +16,18 @@
 </div>
 
 
-<br>
+In *European Conference on Computer Vision (ECCV) 2024*
+
+
 <a href='https://arxiv.org/abs/2405.20222'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; <a href='https://myniuuu.github.io/MOFA_Video'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp; <a href='https://huggingface.co/MyNiuuu/MOFA-Video-Traj'><img src='https://img.shields.io/badge/🤗 huggingface-MOFA_Traj-blue'></a> &nbsp; <a href='https://huggingface.co/MyNiuuu/MOFA-Video-Hybrid'><img src='https://img.shields.io/badge/🤗 huggingface-MOFA_Hybrid-yellow'></a>
 
 
 
-## 🔥🔥🔥 New Features/Updates 
+## 🔥🔥🔥 New Features/Updates
+
+MOFA-Video will be appeared in *ECCV 2024!* 🇮🇹🇮🇹🇮🇹
 
 We have released the Gradio inference code and the checkpoints for **Hybrid** Controls! Please refer to [Here](./MOFA-Video-Hybrid/README.md) for more instructions. 
-
-Stay tuned. Feel free to raise issues for bug reports or any questions!
 
 *Free online demo via HuggingFace Spaces will be coming soon!*
 

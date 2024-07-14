@@ -25,7 +25,7 @@ In *European Conference on Computer Vision (ECCV) 2024*
 
 ## 🔥🔥🔥 New Features/Updates
 
-- (2024.07.15) We have released the training code for trajectory-based image animation! Please refer to [Here](./Training/README.md) for more instructions. Stay tuned. Welcome bug reports!
+- (2024.07.15) We have released the training code for trajectory-based image animation! Please refer to [Here](./Training/README.md) for more instructions.
 
 
 - MOFA-Video will be appeared in *ECCV 2024!* 🇮🇹🇮🇹🇮🇹

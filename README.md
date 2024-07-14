@@ -27,7 +27,6 @@ In *European Conference on Computer Vision (ECCV) 2024*
 
 - (2024.07.15) We have released the training code for trajectory-based image animation! Please refer to [Here](./Training/README.md) for more instructions.
 
-
 - MOFA-Video will be appeared in *ECCV 2024!* 🇮🇹🇮🇹🇮🇹
 - We have released the Gradio inference code and the checkpoints for **Hybrid** Controls! Please refer to [Here](./MOFA-Video-Hybrid/README.md) for more instructions. 
 - *Free online demo via HuggingFace Spaces will be coming soon!*

@@ -25,6 +25,9 @@ In *European Conference on Computer Vision (ECCV) 2024*
 
 ## 🔥🔥🔥 New Features/Updates
 
+- (2024.07.15) We have released the training code for trajectory-based image animation! Please refer to [Here](./Training/README.md) for more instructions. Stay tuned. Welcome bug reports!
+
+
 - MOFA-Video will be appeared in *ECCV 2024!* 🇮🇹🇮🇹🇮🇹
 - We have released the Gradio inference code and the checkpoints for **Hybrid** Controls! Please refer to [Here](./MOFA-Video-Hybrid/README.md) for more instructions. 
 - *Free online demo via HuggingFace Spaces will be coming soon!*
@@ -33,8 +36,8 @@ In *European Conference on Computer Vision (ECCV) 2024*
 ## 📰 CODE RELEASE
 - [x] (2024.05.31) Gradio demo and checkpoints for trajectory-based image animation
 - [x] (2024.06.22) Gradio demo and checkpoints for image animation with hybrid control
+- [x] (2024.07.15) Training scripts for trajectory-based image animation
 - [ ] Inference scripts and checkpoints for keypoint-based facial image animation
-- [ ] Training scripts for trajectory-based image animation
 - [ ] Training scripts for keypoint-based facial image animation
 
 
@@ -218,6 +221,13 @@ python run_gradio_video_driven.py
 ## 💫 Trajectory-based Image Animation 
 
 Please refer to [Here](./MOFA-Video-Traj/README.md) for instructions.
+
+
+## Training your own MOFA-Adapter
+
+Please refer to [Here](./Training/README.md) for more instructions.
+
+
 
 ## Citation
 ```

@@ -1,0 +1,17 @@
+a2m_model:
+  out_dim: 1404
+  latent_dim: 512
+  model_path: ckpts/aniportrait/wav2vec2-base-960h
+  only_last_fetures: True
+  from_pretrained: True
+
+a2p_model:
+  out_dim: 6 
+  latent_dim: 512
+  model_path: ckpts/aniportrait/wav2vec2-base-960h
+  only_last_fetures: True
+  from_pretrained: True
+
+pretrained_model:
+  a2m_ckpt: ckpts/aniportrait/audio2mesh.pt
+  a2p_ckpt: ckpts/aniportrait/audio2pose.pt

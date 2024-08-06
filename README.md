@@ -25,6 +25,8 @@ In *European Conference on Computer Vision (ECCV) 2024*
 
 ## 🔥🔥🔥 New Features/Updates
 
+- (2024.08.07) We have released the inference script for keypoint-based facial image animation! Please refer to [Here](./MOFA-Video-Keypoint/README.md) for more instructions.
+
 - (2024.07.15) We have released the training code for trajectory-based image animation! Please refer to [Here](./Training/README.md) for more instructions.
 
 - MOFA-Video will be appeared in *ECCV 2024!* 🇮🇹🇮🇹🇮🇹
@@ -36,7 +38,7 @@ In *European Conference on Computer Vision (ECCV) 2024*
 - [x] (2024.05.31) Gradio demo and checkpoints for trajectory-based image animation
 - [x] (2024.06.22) Gradio demo and checkpoints for image animation with hybrid control
 - [x] (2024.07.15) Training scripts for trajectory-based image animation
-- [ ] Inference scripts and checkpoints for keypoint-based facial image animation
+- [x] (2024.08.07) Inference scripts and checkpoints for keypoint-based facial image animation
 - [ ] Training scripts for keypoint-based facial image animation
 
 

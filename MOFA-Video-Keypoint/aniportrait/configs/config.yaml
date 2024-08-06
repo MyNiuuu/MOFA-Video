@@ -1,0 +1,12 @@
+pretrained_base_model_path: 'ckpts/aniportrait/stable-diffusion-v1-5'
+pretrained_vae_path: 'ckpts/aniportrait/sd-vae-ft-mse'
+image_encoder_path: 'ckpts/aniportrait/image_encoder'
+
+denoising_unet_path: "ckpts/aniportrait/denoising_unet.pth"
+reference_unet_path: "ckpts/aniportrait/reference_unet.pth"
+pose_guider_path: "ckpts/aniportrait/pose_guider.pth"
+motion_module_path: "ckpts/aniportrait/motion_module.pth"
+
+audio_inference_config: "aniportrait/configs/inference_audio.yaml"
+inference_config: "aniportrait/configs/inference_v2.yaml"
+weight_dtype: 'fp16'

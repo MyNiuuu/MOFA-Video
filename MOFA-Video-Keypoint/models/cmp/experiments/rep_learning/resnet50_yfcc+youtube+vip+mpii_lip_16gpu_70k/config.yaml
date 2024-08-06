@@ -1,0 +1,61 @@
+model:
+    arch: CMP
+    total_iter: 70000
+    lr_steps: [40000, 60000]
+    lr_mults: [0.1, 0.1]
+    lr: 0.1
+    optim: SGD
+    warmup_lr: []
+    warmup_steps: []
+    module:
+        arch: CMP
+        image_encoder: resnet50
+        sparse_encoder: shallownet8x
+        flow_decoder: MotionDecoderPlain
+        skip_layer: False
+        img_enc_dim: 256
+        sparse_enc_dim: 16
+        output_dim: 198
+        decoder_combo: [1,2,4]
+        pretrained_image_encoder: False
+        flow_criterion: "DiscreteLoss"
+        nbins: 99
+        fmax: 50
+data:
+    workers: 2
+    batch_size: 10
+    batch_size_test: 1
+    data_mean: [123.675, 116.28, 103.53] # RGB
+    data_div: [58.395, 57.12, 57.375]
+    short_size: 416
+    crop_size: [320, 320]
+    sample_strategy: ['grid', 'watershed']
+    sample_bg_ratio: 0.00015625
+    nms_ks: 15
+    max_num_guide: -1
+
+    flow_file_type: "jpg"
+    image_flow_aug:
+        flip: False
+    flow_aug:
+        reverse: False
+        scale: False
+        rotate: False
+    train_source:
+        - data/yfcc/lists/train.txt
+        - data/youtube9000/lists/train.txt
+        - data/VIP/lists/train.txt
+        - data/MPII/lists/train.txt
+    val_source:
+        - data/yfcc/lists/val.txt
+    memcached: False
+trainer:
+    initial_val: True
+    print_freq: 100
+    val_freq: 10000
+    save_freq: 10000
+    val_iter: -1
+    val_disp_start_iter: 0
+    val_disp_end_iter: 16
+    loss_record: ['loss_flow']
+    tensorboard: False

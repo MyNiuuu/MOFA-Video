@@ -1414,7 +1414,7 @@ def main():
                                     cmp, 
                                     val_pixel_values_384[:, 0:1, :, :, :].repeat(1, fl, 1, 1, 1), 
                                     val_sparse_optical_flow_384, 
-                                    mask_384
+                                    val_mask_384
                                 )
 
                                 if fh != 384 or fw != 384:

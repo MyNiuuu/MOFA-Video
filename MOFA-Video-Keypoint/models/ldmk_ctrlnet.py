@@ -290,19 +290,19 @@ class FlowControlNet(ControlNetSDVModel):
     
     def get_warped_frames(self, first_frame, flows, scale):
         '''
-            video_frame: [b, c, w, h]
-            flows: [b, t-1, c, w, h]
+            video_frame: [b, c, h, w]
+            flows: [b, t-1, c, h, w]
         '''
         dtype = first_frame.dtype
         warped_frames = []
         occlusion_masks = []
         for i in range(flows.shape[1]):
-            warped_frame = softsplat(tenIn=first_frame.float(), tenFlow=flows[:, i].float(), tenMetric=None, strMode='avg').to(dtype)  # [b, c, w, h]
+            warped_frame = softsplat(tenIn=first_frame.float(), tenFlow=flows[:, i].float(), tenMetric=None, strMode='avg').to(dtype)  # [b, c, h, w]
 
             # print(first_frame.shape)
             # print(warped_frame.shape)
             
-            # occlusion_mask = self.occlusions[str(scale)](torch.cat([first_frame, warped_frame], dim=1))  # [b, 1, w, h]
+            # occlusion_mask = self.occlusions[str(scale)](torch.cat([first_frame, warped_frame], dim=1))  # [b, 1, h, w]
             # warped_frame = warped_frame * occlusion_mask
 
             warped_frame, occlusion_mask = self.occlusions[str(scale)](
@@ -313,10 +313,10 @@ class FlowControlNet(ControlNetSDVModel):
 
             warped_frame = self.zero_outs[str(scale)](warped_frame)
 
-            warped_frames.append(warped_frame.unsqueeze(1))  # [b, 1, c, w, h]
-            occlusion_masks.append(occlusion_mask.unsqueeze(1))  # [b, 1, 1, w, h]
-        warped_frames = torch.cat(warped_frames, dim=1)  # [b, t-1, c, w, h]
-        occlusion_masks = torch.cat(occlusion_masks, dim=1)  # [b, t-1, 1, w, h]
+            warped_frames.append(warped_frame.unsqueeze(1))  # [b, 1, c, h, w]
+            occlusion_masks.append(occlusion_mask.unsqueeze(1))  # [b, 1, 1, h, w]
+        warped_frames = torch.cat(warped_frames, dim=1)  # [b, t-1, c, h, w]
+        occlusion_masks = torch.cat(occlusion_masks, dim=1)  # [b, t-1, 1, h, w]
         return warped_frames, occlusion_masks
    
     def forward(

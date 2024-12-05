@@ -204,7 +204,7 @@ def postprocess_size(flow_pr, inference_size, ori_size, transpose_img):
 @torch.no_grad()
 def get_optical_flows_1t(unimatch, video_frame):
     '''
-        video_frame: [b, t, c, w, h]
+        video_frame: [b, t, c, h, w]
     '''
 
     video_frame = video_frame * 255
@@ -229,9 +229,9 @@ def get_optical_flows_1t(unimatch, video_frame):
         flow_r = results_dict_r['flow_preds'][-1]  # [b, 2, H, W]
         # print(flow_r.shape)
         flow = postprocess_size(flow_r, inference_size, ori_size, transpose_img)
-        flows.append(flow.unsqueeze(1))  # [b, 1, 2, w, h]
+        flows.append(flow.unsqueeze(1))  # [b, 1, 2, h, w]
     
-    flows = torch.cat(flows, dim=1).to(torch.float16)  # [b, t, 2, w, h]
+    flows = torch.cat(flows, dim=1).to(torch.float16)  # [b, t, 2, h, w]
     return flows
 
 
@@ -1401,7 +1401,7 @@ def main():
 
                                 val_pixel_values = val_batch['pixel_values'].to(weight_dtype).to(
                                     accelerator.device
-                                )  # [b, t, c, W, H]
+                                )  # [b, t, c, h, w]
 
                                 val_controlnet_image, val_sparse_optical_flow, \
                                     val_mask, unimatch_flow, val_pixel_values_384, \

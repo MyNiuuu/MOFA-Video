@@ -231,15 +231,15 @@ class FlowControlNet(ControlNetSDVModel):
     
     def get_warped_frames(self, first_frame, flows):
         '''
-            video_frame: [b, c, w, h]
-            flows: [b, t-1, c, w, h]
+            video_frame: [b, c, h, w]
+            flows: [b, t-1, c, h, w]
         '''
         dtype = first_frame.dtype
         warped_frames = []
         for i in range(flows.shape[1]):
-            warped_frame = softsplat(tenIn=first_frame.float(), tenFlow=flows[:, i].float(), tenMetric=None, strMode='avg').to(dtype)  # [b, c, w, h]
-            warped_frames.append(warped_frame.unsqueeze(1))  # [b, 1, c, w, h]
-        warped_frames = torch.cat(warped_frames, dim=1)  # [b, t-1, c, w, h]
+            warped_frame = softsplat(tenIn=first_frame.float(), tenFlow=flows[:, i].float(), tenMetric=None, strMode='avg').to(dtype)  # [b, c, h, w]
+            warped_frames.append(warped_frame.unsqueeze(1))  # [b, 1, c, h, w]
+        warped_frames = torch.cat(warped_frames, dim=1)  # [b, t-1, c, h, w]
         return warped_frames
 
     def get_cmp_flow(self, frames, sparse_optical_flow, mask):
